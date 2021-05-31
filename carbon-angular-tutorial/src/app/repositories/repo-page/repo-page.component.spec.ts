@@ -1,11 +1,11 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { ApolloTestingModule } from 'apollo-angular/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { ApolloTestingModule } from "apollo-angular/testing";
 
-import { RepoPageComponent } from './repo-page.component';
-import { GridModule, TableModule, PaginationModule } from 'carbon-components-angular';
-import { RepoTableComponent } from '../repo-table/repo-table.component';
+import { RepoPageComponent } from "./repo-page.component";
+import { GridModule, TableModule, PaginationModule } from "carbon-components-angular";
+import { RepoTableComponent } from "../repo-table/repo-table.component";
 
-describe('RepoPageComponent', () => {
+describe("RepoPageComponent", () => {
 	let component: RepoPageComponent;
 	let fixture: ComponentFixture<RepoPageComponent>;
 
@@ -28,7 +28,7 @@ describe('RepoPageComponent', () => {
 		fixture.detectChanges();
 	});
 
-	it('should create', () => {
+	it("should create", () => {
 		expect(component).toBeTruthy();
 	});
 });
