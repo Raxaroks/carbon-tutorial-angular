@@ -13,7 +13,7 @@ import { RepoTableComponent } from "./repo-table/repo-table.component";
         RepositoriesRoutingModule,
         GridModule,
         TableModule,
-        LinkModule, 
+        LinkModule,
         PaginationModule
     ]
 })
